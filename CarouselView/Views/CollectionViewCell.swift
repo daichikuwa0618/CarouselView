@@ -39,12 +39,14 @@ final class CollectionViewCell: UICollectionViewCell {
         ]
 
         backgroundView.backgroundColor = backgroundColors.randomElement()
-        backgroundView.layer.cornerRadius = 4
+        backgroundView.layer.cornerRadius = 8
+        backgroundView.layer.borderWidth = 2
+        backgroundView.layer.borderColor = .init(red: 0, green: 0, blue: 0, alpha: 0.8)
 
         NSLayoutConstraint.activate([
             backgroundView.topAnchor.constraint(equalTo: topAnchor),
             backgroundView.centerXAnchor.constraint(equalTo: centerXAnchor),
-            backgroundView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 8),
+            backgroundView.leadingAnchor.constraint(equalTo: leadingAnchor),
             backgroundView.heightAnchor.constraint(equalTo: backgroundView.widthAnchor, multiplier: Self.aspectRatio)
         ])
 

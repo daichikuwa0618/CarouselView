@@ -14,6 +14,7 @@
 		C91D58EC266480D800BB4C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91D58EB266480D800BB4C9E /* Assets.xcassets */; };
 		C91D58EF266480D800BB4C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91D58ED266480D800BB4C9E /* LaunchScreen.storyboard */; };
 		C91D58F82664829E00BB4C9E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D58F72664829E00BB4C9E /* CollectionViewCell.swift */; };
+		C91D58FA2664C75400BB4C9E /* CarouselCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91D58F92664C75400BB4C9E /* CarouselCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C91D58EE266480D800BB4C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C91D58F0266480D800BB4C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C91D58F72664829E00BB4C9E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		C91D58F92664C75400BB4C9E /* CarouselCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				C91D58F72664829E00BB4C9E /* CollectionViewCell.swift */,
+				C91D58F92664C75400BB4C9E /* CarouselCollectionViewFlowLayout.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91D58FA2664C75400BB4C9E /* CarouselCollectionViewFlowLayout.swift in Sources */,
 				C91D58E7266480D400BB4C9E /* ViewController.swift in Sources */,
 				C91D58E3266480D400BB4C9E /* AppDelegate.swift in Sources */,
 				C91D58F82664829E00BB4C9E /* CollectionViewCell.swift in Sources */,
