@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     private var cellWidth: CGFloat {
         // 注目しているセル左右のマージン 16 * 左右 (2 つ) = 32 と
         // 右にチラ見しているセルの表示幅を引いたものがセル幅となる
-        view.frame.width - 32 - 20
+        view.frame.width - 32 - (view.frame.width * 0.1)
     }
     private var cellHeight: CGFloat {
         cellWidth * CollectionViewCell.aspectRatio

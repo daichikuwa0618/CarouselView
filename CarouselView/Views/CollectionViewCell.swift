@@ -10,7 +10,7 @@ import UIKit
 final class CollectionViewCell: UICollectionViewCell {
 
     static let id: String = "cell"
-    static let aspectRatio: CGFloat = 4 / 15
+    static let aspectRatio: CGFloat = 0.8
 
     override init(frame: CGRect) {
         super.init(frame: frame)
